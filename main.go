@@ -238,7 +238,7 @@ func main() {
 						if err6 != nil {
 							failTryTable = append(failTryTable, "試穿表:"+newTryPath+"失敗\n")
 						}
-						needToSize1000T1040 = append(needToSize1000T1040, copyTo4)
+						// needToSize1000T1040 = append(needToSize1000T1040, copyTo4)
 					}
 
 					copyTo5 := mkOut + string(os.PathSeparator) + strconv.Itoa(BeginCount) + "_" + obj.Copy2 + "_" + strconv.Itoa(imageIndex) +
@@ -425,7 +425,7 @@ func main() {
 						if err6 != nil {
 							failTryTable = append(failTryTable, "試穿表:"+newTryPath+"失敗\n")
 						}
-
+						needToSize1000T1040 = append(needToSize1000T1040, copyTo5)
 					}
 				}
 
